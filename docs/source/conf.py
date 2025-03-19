@@ -26,3 +26,12 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+html_show_sourcelink = False
+html_context = {
+    "display_github" : True,
+    "github_user" : "chiarabuono",
+    "github_repo" : "Cogar test repo",
+    "github_version" : "main",
+    "conf_py_path" : "/docs/source",
+}
